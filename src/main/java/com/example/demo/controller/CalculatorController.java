@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.CrossOrigin; // Importa CrossOrig
 import com.example.demo.service.CalculatorService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")  // Habilita CORS para tu frontend
+@CrossOrigin(origins = "http://localhost:3000")  // Habilita CORS 
 public class CalculatorController {
 
     private final CalculatorService calculatorService;
